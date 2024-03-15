@@ -1,3 +1,5 @@
+/* Universal Selectors*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +8,15 @@
 
 body {
     background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 /* Header*/
@@ -22,11 +33,13 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
-header nav {
+/* Navigation */
+
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,27 +47,18 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Main*/
+/* Main */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* Hero Section */
+/* Hero  */
 
 .hero {
     height: 800px;
@@ -65,7 +69,7 @@ p {
     background-position: center;
 }
 
-/* Content Section */
+/* Content  */
 
 .float-left {
     float: left;
@@ -81,67 +85,6 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-/* Benefits Aside */
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .search-engine-optimization {
@@ -197,6 +140,36 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Benefits */
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+aside article {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside article h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside article img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 
 /* Footer */
 
